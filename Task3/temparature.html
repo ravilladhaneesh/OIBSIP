@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temparature</title>
+    <link rel="stylesheet"  href="temparature.css">
+</head>
+<body>
+    <header>
+        <div class="header" >
+            <h1> Temparature Converter</h1>
+        </div >
+    </header>
+    <main>
+        <div class="main-div">
+                <div class="enter">
+                        <h3>Enter temparature</h3>
+                </div>
+                <div class="form">
+                    <form>
+                        <input type="number" name="input" id="input" placeholder="In Degrees">
+                        <button onclick="resetinput()">reset</button>
+                    </form>
+                </div >
+                <div class="ctf">
+                    <h4>
+                        <button onclick="ctf()">Celsius to Fahrenheit</button>
+                    </h4>
+                </div>
+                <div class="ftc">
+                    <h4>
+                        <button onclick="ftc()">Fahrenheit to Celsius</button>
+                    </h4>
+                </div>
+                <div class="result">
+                    <h3> <span class="end">Result : </span><span id="output" name="output" value="output"></span></h3>
+                </div>
+        </div>
+    </main>
+</body>
+<script src="temperature.js"></script>
+</html>

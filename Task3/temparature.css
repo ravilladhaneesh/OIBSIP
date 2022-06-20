@@ -1,0 +1,121 @@
+.header{
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(68, 3, 3);
+}
+
+
+body{
+    background-color: #3bacb6;
+    
+}
+
+
+.main-div{
+    display: grid;
+    height: 400px;
+    width:50%;
+    border-radius: 200px;
+    border:3px solid rgb(12, 216, 243);
+    margin: auto 25%;
+    background:white;
+}
+
+
+.main-div:hover{
+    box-shadow: 7px 5px rgb(0, 95, 107);
+}
+
+
+.main-div .enter{
+    margin-left: 150px;
+    font-size: 1.15em;
+
+}
+
+
+.main-div .ctf{
+    text-align: center;
+}
+
+
+.main-div .form form input{
+    width:300px;
+    height: 40px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+
+.main-div .form form button{
+    border-radius: 20px;
+    font-size: 1.1em;
+    margin-left: 5px;
+    width:100px;
+    height: 40px;
+    background-color:rgba(239, 255, 251, 0.993);
+}
+
+
+.main-div .form form button:hover{
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    transition: all 500ms ease-in-out;
+}
+
+
+.main-div .ctf h4 button {
+    border-radius: 20px;
+    font-size: 1.1em;
+    width:200px;
+    height: 40px;
+    background-color:rgba(239, 255, 251, 0.993);
+}
+
+
+.main-div .ctf h4 button:hover{
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    transition: all 500ms ease;
+}
+
+
+.main-div .ftc{
+    text-align: center;
+    
+}
+
+
+.main-div .ftc h4 button {
+    border-radius: 20px;
+    width:200px;
+    height: 40px;
+    font-size: 1.1em;
+    background-color:rgba(239, 255, 251, 0.993);
+    transition: all 500ms ease;
+}
+
+
+.main-div .ftc h4 button:hover{
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+}
+
+
+.main-div .result{
+    color: black;
+    font-size: 1.4em;
+    margin-left: 150px;
+}
+
+
+.main-div .result h3 #output{
+    margin-left: 10px;
+}
